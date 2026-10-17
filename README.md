@@ -36,10 +36,9 @@ Optional components can be absent; some checks will be skipped or less complete.
 Clone or download this repository, then enter the project directory:
 
 ```bash
-git clone <YOUR-REPOSITORY-URL>
-cd <YOUR-REPOSITORY-DIRECTORY>
+git clone https://github.com/MrDreamReal/Eml-PhishScan-.git
+cd Eml-PhishScan-
 python3 --version
-python3 -m py_compile phishscan.py
 python3 phishscan.py --help
 ```
 
