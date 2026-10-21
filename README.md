@@ -1,5 +1,11 @@
 # PhishScan — Static Phishing Email Analysis & DFIR Triage Toolkit
 
+Project Documentation
+
+The complete project documentation, investigation workflow, practical analysis notes, and supporting materials are available in Notion.
+
+View Full Project: Email Phishing Analysis
+
 **PhishScan** is a Python-based, static-first phishing email analysis tool for SOC analysts, incident responders, DFIR learners, and security labs. It parses `.eml` messages, examines headers and authentication evidence, inspects message content and links, analyzes common attachment types, enriches indicators when explicitly enabled, and generates triage reports and hunting artifacts.
 
 > **Safety model:** PhishScan does not directly visit extracted phishing URLs or execute attachments. Optional online enrichment makes requests to DNS/RDAP and configured threat-intelligence services. Read the privacy and safety notes before using `--online` or saving attachments.
